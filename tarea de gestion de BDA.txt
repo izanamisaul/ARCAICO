@@ -1,0 +1,48 @@
+unidad 3
+---------------------------------------------------------------------------Evaluadores
+3.1 lenjuage de programacion
+*realizar un analisis de los lenguajes de programacion que puede usar para el desarrollo
+*seleccionar el lenjguaje de programacion a usar (justificar la seleccion)
+3.2 manejadores de base de datos
+*realizar un anlisis de los sgbd´s que pueden usar para el proyecto
+* seleccionar el sgbd a usar(justificacion la sekleccion)
+3.3 contruccion del sistema
+--------------------------------------------------------------------Programadores
+*desarrolla el proyecto (8 de mayo)
+entregable
+-proyecto terminado al 100%
+-manual de usuario
+-Manual tecnico
+*problema
+/Plantamiento del problema
+/antecedentes
+/objetivo
+/justificacion
+*analisis y diseño
+/modelo del procesos
+/diagramas de caos de usos
+/diagramas de secuencias
+/diaccionario de datos
+*desarrollo
+/analisis del lenguaje de programacion y SGBD
+/justificacion de la seleccion correspodiente al punto anterior
+/diccionario del codigo
+-nombre del archivo
+-nombre de [metodo | funcion |procedimiento]
+-descripcion
+-parametros de entrada
+-salida
+/diccionario grafico// va ir por pantalla
+-nombre de la interfaz
+-nombre del objeto//objeto que permite avilitar descripcion brebe de eso dos objetos
+-descripcion
+-eventos programados
+
+
+aplicaccion
+(SCD-1011) unidad 3 proeyecto-aplicacion-equipo x.rar
+
+-manual de usuario
+-------------manual usuario
+-manual tecnico 
+-----------------manual tecnico
