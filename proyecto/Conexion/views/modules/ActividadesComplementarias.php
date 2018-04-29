@@ -4,6 +4,16 @@
 		<h1 align="center">ACTIVIDADES COMPLEMENTARIAS</h1>
 		<div class="col s12">
 			<table border="1" class="table">
+
+<tr>
+<td>Clave</td>
+<td>
+<input type=text name="Clave">
+</td>
+</tr>
+
+
+
 <tr>
 <td>Nombre</td>
 <td>
@@ -50,12 +60,7 @@ escriba aquí sus observaciones</textarea>
 </td>
 </tr>
 
-<tr>
-<td>COSTO</td>
-<td>
-<input type=text name="COSTO">
-</td>
-</tr>
+
 
 <tr>
 <td colspan=2>

@@ -1,5 +1,5 @@
 
-<footer class="page-footer  indigo blue darken-1">
+<footer class="page-footer  indigo grey darken-4">
           <div class="container">
             <div class="row">
               <div class="col l6 s12">
@@ -18,9 +18,9 @@
           </div>
           <div class="footer-copyright">
             <div class="container">
-            Version en Español (es_mx) Copyright © 2017 Instituto Tecnológico Superior de Xalapa. All Rights Reserved    Theme by 
+            Instituto Tecnológico Superior de Xalapa. All Rights Reserved    Theme by 
 
-            <a class="grey-text text-lighten-4 right" href="#!"><a href="http://www.academiathemes.com" target="_blank">AcademiaThemes</a></a>
+            <a class="grey-text text-lighten-4 right" href="#!"><a href="http://www.academiathemes.com" target="_blank">CONTENEDOR</a></a>
             </div>
           </div>
         </footer>

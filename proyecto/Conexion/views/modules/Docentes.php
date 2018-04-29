@@ -4,6 +4,18 @@
 		<h1 align="center">DOCENTES</h1>
 		<div class="col s12">
 			<table border="1" class="table">
+
+
+<tr>
+<td>Clave</td>
+<td>
+<input type=text name="Clave">
+</td>
+</tr>
+
+
+
+				
 <tr>
 <td>Nombre</td>
 <td>

@@ -42,7 +42,15 @@
 <tr>
 <td>Semestre</td>
 <td>
-<input type=text name="Semestre">
+<select name="Sistema">
+    <option value="" disabled selected>Selecionar</option>
+<option VALUE="1">1°</option>
+<option VALUE="2">2°</option>
+<option VALUE="3">3°</option>
+<option VALUE="4">4°</option>
+<option VALUE="5">5°</option>
+<option VALUE="6">6°</option>
+</select>
 </td>
 </tr>
 

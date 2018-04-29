@@ -37,12 +37,7 @@
 </tr>
 
 
-<tr>
-<td>COSTO</td>
-<td>
-<input type=text name="COSTO">
-</td>
-</tr>
+
 
 <tr>
 <td>CREDITOS</td>

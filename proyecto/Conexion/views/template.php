@@ -42,7 +42,19 @@
 
   $(document).ready(function(){
     $('select').formSelect();
+
     $(".dropdown-trigger").dropdown();
+
+    $(".sidenav").sidenav();
+    $('.parallax').parallax();
+
+
+
+    var categorias =$('.pushpin-demo-nav');
+    if(categorias.length){
+      categorias.pushpin({top:categorias.offset().top});
+    }
+
   });
 
 </script>
