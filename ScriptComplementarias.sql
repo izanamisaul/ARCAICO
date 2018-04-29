@@ -27,7 +27,7 @@ engine = InnoDB;
 #tabla de el sistema (escolarizado, sabatino)
 create table Sistemas(
   idSistema int not null auto_increment,
-  Tipo varchar(45),
+  Turno varchar(45), #se cambio Tipo por Turno
   primary key (idSistema)
 )
 engine = InnoDB;
@@ -41,7 +41,7 @@ engine = InnoDB;
 #tabla de el estatus del alumno
 create table Status(
   idStatus int not null auto_increment,
-  Turno varchar(45),
+  Tipo varchar(45), #se cambio Turno por Tipo
   primary key (idStatus)
 )
 engine = InnoDB;
@@ -52,6 +52,7 @@ create table Historialdeactividades(
   Tutores_idTutor int not null,
   Congresos_idCongreso int not null,
   ActividadesComplementarias_idActividad int not null,
+  Alumnos_idAlumno int not null,
   primary key (idHistorial),
     foreign key (Tutores_idTutor)
      references Tutores (idTutor)
@@ -63,6 +64,10 @@ create table Historialdeactividades(
      on update no action,
     foreign key (ActividadesComplementarias_idActividad)
      references ActividadesComplementarias (idActividad)
+     on delete no action
+     on update no action,
+    foreign key (Alumnos_idAlumno)
+     references Alumnos (idAlumno)
      on delete no action
      on update no action
 )
@@ -80,13 +85,10 @@ engine = InnoDB;
 create table ActividadesComplementarias(
   idActividad int not null auto_increment,
   Nombre varchar(45),
-  Fechadeinicio datetime,
-  Fechadefinalizacion datetime,
   Cupo int null,
   Creditos int null,
   Observaciones varchar(50),
-  Costo int null,
-  primary key (idActividad)
+  primary key (idActividad) # se elimino costos y fechas de inicio y finalizacion en esta tabla
 )
 engine = InnoDB;
 #tabla de los congresos
@@ -96,24 +98,16 @@ create table Congresos(
   Lugar varchar(45),
   Fechadeinicio datetime,
   Fechadefinalizacion datetime,
-  Creditos int null,
-  Costo int null,
+  Creditos int null, #se elimino Costos en esta tabla
   primary key (idCongreso)
 )
 engine = InnoDB;
-#tabla intermediaria entre alumnos y el historial de acitividades
-create table Alumnos_has_Historialdeactividades(
-  Alumnos_idAlumno int not null,
-  Historialdeactividades_idHistorial int not null,
-  primary key (Alumnos_idAlumno, Historialdeactividades_idHistorial),
-   foreign key (Alumnos_idAlumno)
-    references Alumnos (idAlumno)
-    on delete no action
-    on update no action,
-   foreign key (Historialdeactividades_idHistorial)
-    references historialdeactividades (idHistorial)
-    on delete no action
-    on update no action 
+#se elimino la tabla intermediaria entre actividades y alumnos
+# se crea la tabla Periodo
+#tabla Periodo
+create table Periodo(
+  idPeriodo int not null,
+   primary key (idPeriodo)
 )
 engine = InnoDB;
 # tabla de la bitacora
