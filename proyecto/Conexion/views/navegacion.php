@@ -1,6 +1,6 @@
 
  <div class="parallax-container">
-      <div class="parallax"><img src="../img/logo.png"></div>
+      <div class="parallax"><img src="../img/header_itsx940.png"></div>
     </div>
     
       
